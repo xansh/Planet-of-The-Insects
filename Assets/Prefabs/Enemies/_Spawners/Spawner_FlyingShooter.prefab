@@ -81,7 +81,7 @@ GameObject:
   - component: {fileID: 242393221910756319}
   - component: {fileID: 242393221910756313}
   m_Layer: 0
-  m_Name: Spawner_AerialShooter
+  m_Name: Spawner_FlyingShooter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -207,3 +207,9 @@ MonoBehaviour:
   deathEffect: {fileID: 1515603650488286217, guid: b1d61b018291e5043b0be5ee26c12b18, type: 3}
   hitEffect: {fileID: 1986892457192645033, guid: b4b5f92d032abe64b84d7639d84610e8, type: 3}
   ragdollHandler: {fileID: 0}
+  eventsOnDeath:
+    m_PersistentCalls:
+      m_Calls: []
+  eventsOnRespawn:
+    m_PersistentCalls:
+      m_Calls: []
